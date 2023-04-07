@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+/* start sidebar */
+.sidebar {
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+}
+.side_inner {
+    background-color: #414658; 
+    cursor: pointer;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+.side_inner a{
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color .3s;
+}
+.side_inner a:hover {
+    color: brown !important;
+}
+.side_inner .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px !important;
+}
+span {
+    align-self: flex-start;
+    position: relative;
+    top: 35%;
+    color: #fff;
+    padding:10px  ;
+}
+/* end sidebar */
+/* start event */
+#event {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imgs/events.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.eventOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.sidenav a {
+    display: block;
+}
+.main h2 {
+    font-size: 60px;
+}
+.main h2 ,
+.main p {
+    text-align: center;
+}
+
+/* end event */
+
+/* start counter */
+#countsec {
+    background-image: url(../imgs/invitation.jpg);
+    background-size:  cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    height: 330px;
+    position: relative;
+   
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+.conainer {
+    padding: 100px 0px;
+}
+.conainer .row {
+    margin-top: 20px;
+}
+.tim {
+    padding: 50px !important;
+    border: 1px solid white;
+}
+
+/* end counter */
+
+/* start hire-me */
+#hire_me .container {
+    /* width: 80% !important; */
+    margin-top: 130px !important;
+}
+#hire_me .head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#hire_me .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+#hire_me .con-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777 ;
+}
+
+#hire_me.icons p {
+    margin-bottom: 35px;
+}
+#hire_me .red {
+    color: #D62E33 !important;
+}
+.con-social i {
+    font-size: 20px;
+}
+
+#hire_me .con-info .con-social {
+    margin-top: 60px;
+    color: #777;
+    text-align: left;
+}
+
+#hire_me .con-info .con-social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s ,background-color  0.3s , border  0.3s ;
+
+}
+#hire_me .con-info .con-social i:hover {
+    color: #fff !important;
+    background-color: #D62E33 ;
+    border: none;
+}
+
+#hire_me form input, hire_me form textarea {
+    margin-bottom: 20px;
+    border-radius: 0; 
+    color: #999;
+}
+#length {
+    color: #D62E33;
+    font-weight: bold;
+    font-size: 20px;
+}
+#reamining{
+    font-size: 19px;
+    color: black;
+}
+#hire_me form button {
+    background-color: #D62E33 !important;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+
+
+}
+/* end hire-me */
+
+
+
+footer,
+.accordion-header button {
+    background-color: rgba(214,46,51,0.6);
+    color: white;
+}
+.accordion-body {
+    background-color: rgb(204,204,204);
+}
